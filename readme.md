@@ -20,19 +20,10 @@
     1. Visita       O programa visita o perfil da pessoa informada
     2. Interação    Garante interatividade com a sua comunidade
     3. Visibilidade É possível adquirir mais visibilidade nas redes
-    4.Score         O score no facebook fica mais alto
+    4. Score         O score no facebook fica mais alto
 
 # Passo a passo
-    1. Visita perfil
-    2. Verifica se é amigo ou não
-        2.1. Se é amigo, então curte todas as publicações
-        2.2. Se não é amigo, então envia solicitação e sai do perfil
-    3. Imprime relatório de atividade
-    4. Pergunta se o usuário quer continuar com outro perfil
-
-# Classes
-    1. Navegador    Classe responsável por armazenar, pegar e validar URLs
-    2. Facebook     Classe responsável por executar ações no facebook
-    3. Usuário      Classe responsável por executar ações do lado do usuário
-    4. Estatistica  Classe responsável por armazenar estatísticas da aplicação
-    5. Relatório    Classe responsável por elaborar os indicadores
+    1.  Abre facebook
+    2.  Faz login
+    3.  Visita perfil do alvo
+    4.  Curte publicações que estão aparecendo

@@ -1,11 +1,28 @@
+#..............................Logs.........................................
+#   22/06/2020  - Iniciando testes na classe Facebook
+#       22:06   - Início de testes
+#       22:15   - Classe validada
+
+#.........................Explicação.........................................
+#   Classe utilizada para guardar class_names de
+#   -   Botão de curtir
+#   -   Botão de realizar login
+#   -   Inputbox de email
+#   -   Inputbox de senha
+#   -   Frame da publicação
+
+#........................Observaçõoes.........................................
+#       A classe tem valores constantes, a alteração de dados no site
+#       do Facebook acarreterá em bugs de produção por conta dessa classe
+
 class Facebook():
     def __init__(self):
         self.__curtir = "_666k"
         self.__email = "email"
         self.__senha = "pass"
         self.__login = "loginbutton"
+        self.__login2 = "u_0_b"
         self.__pubs = "_3ccb"
-        self.__publicacoes = []
 
     @property
     def getCurtir(self):
@@ -24,13 +41,9 @@ class Facebook():
         return self.__login
 
     @property
-    def getPubs(self):
-        return self.__pubs
+    def getLogin2(self):
+        return self.__login2
 
     @property
     def getPubs(self):
-        return self.__publicacoes
-
-    @getPubs.setter
-    def setPubs(self, webelem):
-        self.__publicacoes = webelem
+        return self.__pubs
